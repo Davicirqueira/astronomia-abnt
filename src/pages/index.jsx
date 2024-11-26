@@ -153,9 +153,35 @@ export default function Home() {
 
           <SliderTwo />
 
-          <h1>Os planetas do universo...</h1>
+          <h1>Os planetas do sistema solar...</h1>
+
+          <p>Os planetas são corpos celestes que orbitam estrelas, e no caso do nosso Sistema Solar, eles orbitam o Sol. Eles podem ser divididos em dois grupos principais: os planetas rochosos e os planetas gasosos.
+
+            Os planetas rochosos, também conhecidos como terrestres, são menores, possuem superfícies sólidas compostas principalmente de rochas e metais. Eles são mais próximos do Sol e têm atmosferas finas ou quase inexistentes. O primeiro planeta do Sistema Solar é Mercúrio, que é o mais próximo do Sol e possui temperaturas extremas devido à falta de uma atmosfera significativa. Vênus, o segundo planeta, é semelhante em tamanho à Terra, mas sua atmosfera densa e rica em dióxido de carbono cria um efeito estufa intenso, tornando-o o planeta mais quente. A Terra, nosso planeta, é o único conhecido até agora com vida, com uma atmosfera rica em oxigênio e água líquida em sua superfície. Marte, o quarto planeta, é famoso por sua coloração vermelha e por ter sido o alvo de várias missões espaciais, devido a indícios de que, no passado, possa ter abrigado água em forma líquida.
+
+            Os planetas gasosos, por outro lado, são muito maiores do que os rochosos e são compostos principalmente por gases como hidrogênio e hélio. Eles têm atmosferas densas e, em geral, não possuem superfícies sólidas como os planetas terrestres. Júpiter, o maior planeta do Sistema Solar, é um gigante gasoso composto principalmente de hidrogênio e hélio. Ele possui uma série de luas, sendo a maior delas Ganimedes. Saturno, conhecido pelos seus impressionantes anéis, é outro gigante gasoso, com uma composição semelhante à de Júpiter. Urano e Netuno são os planetas mais distantes do Sistema Solar. Ambos são considerados gigantes gasosos gelados, compostos por hidrogênio, hélio e metano, sendo que Urano é notável por sua inclinação axial extrema, fazendo com que ele gire praticamente de lado.
+
+          </p>
+
+          <img className='img-planet' src="/assets/images/planet.jpg" alt="" />
+
+          <p>Além dos planetas principais, o Sistema Solar também possui outros corpos celestes de importância. Plutão, por exemplo, era considerado o nono planeta até ser reclassificado como um "planeta anão" em 2006 pela União Astronômica Internacional. Outros planetas anões incluem Ceres, Haumea, Makemake e Eris, que se localizam principalmente no Cinturão de Kuiper, uma região além de Netuno.
+
+            Esses planetas e corpos celestes desempenham papéis importantes no equilíbrio e funcionamento do Sistema Solar. Eles influenciam o movimento de asteroides e cometas e são alvo de estudos para entender melhor as condições que podem propiciar a vida em outros lugares do universo. A exploração planetária também nos ajuda a aprender sobre a formação de estrelas e sistemas planetários, ampliando nosso conhecimento sobre o cosmos.
+
+          </p>
+
+
+          <div className='iframe-video'>
+
+            <h2>Sobre alguns planetas...</h2>
+
+            <iframe className='video' width="600" height="330" src="https://www.youtube.com/embed/xns9MODJujU?si=zjXKu4yiiMVOLCxH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+          </div>
 
         </div>
+
 
       }
 
