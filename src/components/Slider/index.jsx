@@ -28,10 +28,6 @@ const Slider = () => {
         }
     };
 
-    const goToSlide = (index) => {
-        setCurrentSlide(index);
-    };
-
     useEffect(() => {
         const interval = setInterval(() => {
             changeSlide('next');
@@ -81,10 +77,6 @@ const SliderTwo = () => {
         } else {
             setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
         }
-    };
-
-    const goToSlide = (index) => {
-        setCurrentSlide(index);
     };
 
     useEffect(() => {
