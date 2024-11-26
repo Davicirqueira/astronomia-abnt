@@ -88,7 +88,7 @@ const SliderTwo = () => {
     }, []);
 
     return (
-        <div className="slider">
+        <div className="slider2">
             <div className="slides" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
                 {slides.map((slide) => (
                     <div className="slide" key={slide}>

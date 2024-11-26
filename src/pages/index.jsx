@@ -147,11 +147,16 @@ export default function Home() {
 
       }
 
-      {active == 'Planetas' && 
-      
-        <SliderTwo />
+      {active == 'Planetas' &&
 
-      
+        <div className='nav-planetas'>
+
+          <SliderTwo />
+
+          <h1>Os planetas do universo...</h1>
+
+        </div>
+
       }
 
       <footer>
