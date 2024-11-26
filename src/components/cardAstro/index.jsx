@@ -6,9 +6,11 @@ export default function CardAstro(props){
 
         <div className='card-astro'>
 
-            <h2>Nicolal Copérnico</h2>
+            <h2>{props.nome}</h2>
 
-            <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+            <p>{props.caracteristica}</p>
+
+            <p>{props.vida}</p>
 
         </div>
 

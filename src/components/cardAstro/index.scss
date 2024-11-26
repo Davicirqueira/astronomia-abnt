@@ -1,6 +1,13 @@
 .card-astro{
     
+    display: flex;
+    flex-direction: column;
     color: #fff;
-    background-color: #1d1355;
-    
+    gap: 10px;
+    background-color: #1b1b1d;
+    width: 350px;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+
 }

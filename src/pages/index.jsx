@@ -1,6 +1,6 @@
 import './index.scss';
 import { useState } from 'react';
-import Slider from '../components/Slider';
+import { Slider, SliderTwo } from '../components/Slider'
 import CardAstro from '../components/cardAstro';
 
 export default function Home() {
@@ -72,13 +72,86 @@ export default function Home() {
       }
 
       {active == 'Astronomos' &&
-      
+
         <div className='nav-astronomos'>
 
-          <CardAstro />
+          <div className='file'>
+
+            <CardAstro
+              nome={"Nicolau Copérnico"}
+              caracteristica={"Teoria Heliocêntrica"}
+              vida={"(1473 - 1543)"}
+            />
+
+            <CardAstro
+              nome={"Galileu Galilei"}
+              caracteristica={"Ciência Moderna"}
+              vida={"(1564 - 1642)"}
+            />
+
+            <CardAstro
+              nome={"Johannes Kepler "}
+              caracteristica={" Leis do Movimento Planetário"}
+              vida={"(1571 - 1630)"}
+            />
+
+          </div>
+
+          <div className='file'>
+
+            <CardAstro
+              nome={"Isaac Newton"}
+              caracteristica={"Lei da Gravitação Universal"}
+              vida={"(1642 - 1727)"}
+            />
+
+            <CardAstro
+              nome={"William Herschel"}
+              caracteristica={"compositor que descobriu o planeta Urano"}
+              vida={"(1738 - 1822)"}
+            />
+
+            <CardAstro
+              nome={"Edwin Hubble"}
+              caracteristica={"Lei de Hubble distância galática"}
+              vida={"(1889 - 1953)"}
+            />
+
+          </div>
+
+          <div className='file'>
+
+            <CardAstro
+              nome={"Carl Sagan"}
+              caracteristica={"Responsável pela missão espacial Viking a Marte"}
+              vida={"(1934 - 1996)"}
+            />
+
+            <CardAstro
+              nome={"Marie Curie"}
+              caracteristica={"Pioneira no estudo dos efeitos da radiação"}
+              vida={"(1867 - 1934)"}
+            />
+
+            <CardAstro
+              nome={"Stephen Hawking "}
+              caracteristica={"Conhecido por seu trabalho sobre buracos negros e cosmologia"}
+              vida={"(1942 - 2018)"}
+            />
+
+          </div>
+
+          <iframe className='video' width="580" height="325" src="https://www.youtube.com/embed/lzeDuGlwSwk?si=-yH0ZMl7tHiw6_kT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
         </div>
 
+      }
+
+      {active == 'Planetas' && 
+      
+        <SliderTwo />
+
+      
       }
 
       <footer>

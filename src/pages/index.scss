@@ -94,6 +94,25 @@
 
     }
 
+    .nav-astronomos{
+
+        .file{
+
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+            padding-left: 12%;
+            padding-top: 8%;
+
+        }
+
+        .video{
+
+            margin-left: 30%;
+            margin-top: 15%;
+        }
+    }
+
     footer{
         
         display: flex;
