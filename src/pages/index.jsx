@@ -1,6 +1,7 @@
 import './index.scss';
 import { useState } from 'react';
 import Slider from '../components/Slider';
+import CardAstro from '../components/cardAstro';
 
 export default function Home() {
 
@@ -70,6 +71,15 @@ export default function Home() {
 
       }
 
+      {active == 'Astronomos' &&
+      
+        <div className='nav-astronomos'>
+
+          <CardAstro />
+
+        </div>
+
+      }
 
       <footer>
 
