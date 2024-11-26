@@ -1,10 +1,10 @@
 .home-page {
 
-    img{
+    .icon {
         margin-top: 3%;
         width: 250px;
         border-radius: 100%;
-        margin-left: 40%;
+        margin-left: 41%;
     }
 
     header {
@@ -22,7 +22,7 @@
             text-align: center;
         }
 
-        .active-link{
+        .active-link {
             color: #2e65b6;
             text-align: center;
             font: 500 18px "Roboto";
@@ -35,5 +35,86 @@
 
         }
     }
+
+    .nav-galaxys {
+
+        color: #fff;
+
+        .section {
+
+            display: flex;
+            flex-direction: row;
+            gap: 215px;
+
+            .txt {
+
+                margin-top: 8%;
+                padding-left: 4%;
+
+                h2{
+                    text-align: left;
+                }
+
+                p {
+                    width: 550px;
+                    text-align: left;
+                    line-height: 180%;
+                    padding-top: 3%;
+                }
+
+            }
+
+            .txt2 {
+
+                margin-top: 8%;
+                padding-left: 4%;
+
+                h2{
+                    text-align: right;
+                }
+
+                p {
+                    width: 550px;
+                    text-align: right;
+                    line-height: 180%;
+                    padding-top: 3%;
+                }
+
+            }
+
+        }
+
+        .video{
+    
+            margin-left: 30%;
+            margin-top: 10%;
+        }
+
+    }
+
+    footer{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10%;
+
+        .small-icon{
+            border-radius: 100%;
+            width: 50px;
+        }
+
+        background-color: #020b18;
+        color: #fff;
+        min-height: 20vh;
+        
+        h3{
+            background-color: #020b18;
+            color: #78797a;
+        }
+
+    }
+
 
 }
