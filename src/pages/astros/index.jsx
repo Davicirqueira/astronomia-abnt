@@ -231,6 +231,8 @@ export default function PageAstros() {
 
                     <h1>{active}</h1>
 
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/WueCQNhGwtA?si=vJwaOo4EAXwoytuY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
                     <p>Edwin Hubble (1889–1953) foi um astrônomo americano cuja pesquisa revolucionou a compreensão do universo. Ele é amplamente reconhecido por demonstrar que o universo está em expansão, uma descoberta que se tornou um dos pilares da cosmologia moderna. Hubble fez observações fundamentais sobre as galáxias e sua velocidade de afastamento, o que levou à formulação da Lei de Hubble e ao entendimento de que o universo não é estático, mas está em constante expansão.
 
                         Principais Contribuições de Edwin Hubble:
