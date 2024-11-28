@@ -1,7 +1,7 @@
 import './index.scss';
 import { useState } from 'react';
-import { Slider, SliderTwo } from '../components/Slider'
-import CardAstro from '../components/cardAstro';
+import { Slider, SliderTwo } from '../../components/Slider'
+import CardAstro from '../../components/cardAstro';
 
 export default function Home() {
 
@@ -129,7 +129,7 @@ export default function Home() {
 
             <CardAstro
               nome={"Marie Curie"}
-              caracteristica={"Pioneira no estudo dos efeitos da radiação"}
+              caracteristica={"Pioneira no estudo dos efeitos da radiação e exploração"}
               vida={"(1867 - 1934)"}
             />
 

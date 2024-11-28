@@ -1,4 +1,5 @@
 import './index.scss';
+import { Link } from 'react-router-dom';
 
 export default function CardAstro(props){
 
@@ -11,6 +12,8 @@ export default function CardAstro(props){
             <p>{props.caracteristica}</p>
 
             <p>{props.vida}</p>
+
+            <Link to={'/astros'}>Ver mais</Link>
 
         </div>
 

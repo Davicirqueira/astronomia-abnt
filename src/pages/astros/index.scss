@@ -1,0 +1,71 @@
+.page-astros{
+
+    background: linear-gradient(to bottom, #000000 8%, #030816 50%, #000000 85%);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+
+    header{
+        display: flex;
+        padding: 10px;
+        gap: 20px;
+        flex-direction: column;
+        min-width: 300px;
+        position: fixed;
+
+        .astro-link{
+            text-align: left;
+            cursor: pointer;
+            transition: all 0.3s;
+            padding: 2%;
+            width: 180px;
+        }
+
+        .astro-link:hover{
+            background-color: #2e65b6;
+            transform: translateX(5px);
+            color: #000000;
+            border-radius: 6px;
+            width: 180px;
+            text-align: left;
+        }
+
+        .active-astro{
+            text-align: left;
+            background-color: #2e65b6;
+            color: #000000;
+            padding: 2%;
+            border-radius: 6px;
+            width: 180px;
+        }
+
+        .back{
+            margin-top: 15%;
+            padding: 2%;
+            &:hover{
+                color: #2e65b6;
+                transition: ease-in-out 0.5s;
+            }
+        }
+    }
+
+    >div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 80px;
+        margin-left: 25%;
+
+        p{
+            line-height: 280%;
+        }
+
+        .img{
+            border-radius: 100%;
+            width: 100px;
+        }
+
+    }
+}
