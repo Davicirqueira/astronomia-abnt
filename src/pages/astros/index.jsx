@@ -387,13 +387,59 @@ export default function PageAstros() {
             }
 
             {active == 'Stephen Hawking' &&
-            
+
                 <div>
 
-                    <h1></h1>
+                    <h1>{active}</h1>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3rjtLaUJopE?si=pBJPboBLxHASeXDX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    <p>Stephen Hawking (1942–2018) foi um dos mais renomados físicos teóricos da história, cujas contribuições à cosmologia e à física teórica transformaram nossa compreensão do universo. Ele ficou particularmente famoso por seus trabalhos sobre buracos negros, a origem do universo e as leis que governam o cosmos. Sua carreira e vida são marcadas por uma notável combinação de inteligência científica e perseverança diante de desafios pessoais, o que o tornou um ícone mundial da ciência.
+
+                        Principais Contribuições de Stephen Hawking:
+                        Teoria dos Buracos Negros:
+
+                        Uma das maiores contribuições de Hawking para a física foi sua pesquisa sobre buracos negros, em particular, a descoberta de que buracos negros não são completamente "negros". Em 1974, ele propôs que buracos negros emitem radiação, conhecida hoje como radiação Hawking.
+                        A radiação Hawking sugere que, devido à mecânica quântica, partículas e antipartículas são geradas perto do horizonte de eventos de um buraco negro. Em certos casos, uma dessas partículas pode ser absorvida pelo buraco negro, enquanto a outra escapa, fazendo com que o buraco negro perca energia e, eventualmente, "evapore". Isso contradizia a ideia anterior de que nada poderia escapar de um buraco negro, e estabeleceu uma ponte entre a gravitação e a mecânica quântica, dois campos da física que, até então, eram considerados incompatíveis.
+                        A radiação Hawking levou à reformulação da física dos buracos negros, pois implica que esses objetos poderiam, teoricamente, desaparecer ao longo do tempo, um conceito que gerou debates intensos sobre a informação perdida dentro de buracos negros.
+                        Teoria do Big Bang e a Origem do Universo:
+
+                        Hawking também fez importantes contribuições para o estudo da origem do universo. Em parceria com o físico Roger Penrose, ele ajudou a desenvolver a teoria de que o Big Bang — o evento que deu origem ao universo — foi uma singularidade, um ponto no tempo e no espaço onde a curvatura do espaço-tempo se torna infinita. Essa teoria levou à formulação do Teorema da Singularidade.
+                        Mais tarde, Hawking propôs uma teoria do universo sem limites, com a ideia de que o tempo e o espaço poderiam ter começado de forma contínua a partir de uma "singularidade quântica". Em seu livro "Uma Breve História do Tempo", ele descreve essas ideias de uma forma acessível ao público, tornando o estudo da cosmologia acessível para milhões de leitores ao redor do mundo.
+                        Teoria do Modelo do Universo Fechado e Sem Fronteiras:
+
+                        Em 1983, em colaboração com o cosmólogo James Hartle, Hawking desenvolveu o modelo Hartle-Hawking do universo. Segundo este modelo, o universo não tem limites ou bordas no tempo e no espaço, sugerindo que o tempo pode ser tratado como uma dimensão física que não precisa de um "início" ou "fim" tradicional.
+                        O conceito de um universo "sem fronteiras" indicava que o universo pode ter surgido de forma natural, sem a necessidade de uma causa externa, desafiando a ideia tradicional de um criador ou uma origem transcendental. Essa visão estava alinhada com as descobertas da cosmologia moderna, que propõem que o universo pode ter se originado de uma grande expansão, o Big Bang, e evoluído para o cosmos atual.
+                        Trabalho na Unificação da Física:
+
+                        Hawking também foi um dos pioneiros na busca por uma teoria unificada que combinasse as duas principais teorias da física: a relatividade geral, que descreve a gravidade e os objetos macroscópicos, e a mecânica quântica, que descreve o comportamento das partículas subatômicas. Ele propôs que, no nível fundamental, essas duas teorias poderiam ser reconciliadas por meio de uma teoria de gravitação quântica.
+                        Embora a teoria das cordas tenha sido uma das abordagens mais populares para unificar essas duas áreas, o trabalho de Hawking em cosmologia e física teórica manteve sua relevância até os dias de hoje, estimulando novos avanços e estudos nesta área.
+                        Publicações e Acessibilidade à Ciência:
+
+                        Um dos aspectos mais notáveis de Hawking foi sua capacidade de traduzir conceitos científicos complexos para o público geral. Seu livro "Uma Breve História do Tempo", publicado em 1988, foi um sucesso de vendas mundial e tornou a cosmologia e a física mais acessíveis a pessoas sem formação científica. O livro explora tópicos como o Big Bang, os buracos negros e o destino do universo, e permanece como um dos livros mais lidos de ciência popular de todos os tempos.
+                        Em suas obras subsequentes, como "O Universo em uma Casca de Noz" e "O Grande Projeto", Hawking continuou a explorar as questões fundamentais do cosmos e a disseminar suas ideias de forma clara e envolvente.
+                        Influência e Legado:
+
+                        Hawking se tornou um símbolo de perseverança diante das adversidades. Ele foi diagnosticado com esclerose lateral amiotrófica (ELA), uma doença neurodegenerativa progressiva, aos 21 anos. Os médicos lhe deram apenas dois anos de vida, mas ele sobreviveu por mais de 50 anos, tornando-se uma das figuras mais reconhecíveis da ciência moderna. A doença o deixou paralisado, mas ele usou um sintetizador de voz para se comunicar e continuou a trabalhar incansavelmente em sua pesquisa, desafiando as expectativas sobre as limitações físicas.
+                        Sua história de vida foi uma inspiração para muitas pessoas, especialmente em sua capacidade de superar as dificuldades físicas e continuar a fazer contribuições revolucionárias para a ciência. Ele também foi um defensor da exploração espacial, da educação científica e da física fundamental.
+                        Visão Filosófica e Sobre o Futuro da Humanidade:
+
+                        Em muitas de suas entrevistas e palestras, Hawking discutiu não apenas questões científicas, mas também filosóficas e sociais. Ele era um crítico das ideias de inteligência extraterrestre e advertia sobre os riscos de contato com civilizações alienígenas. Em 2010, ele sugeriu que a humanidade precisava se tornar uma espécie interplanetária para garantir sua sobrevivência a longo prazo, devido aos riscos existenciais como as mudanças climáticas e a destruição de recursos naturais na Terra.
+                        Ele também era um defensor de uma visão ateísta sobre o universo, argumentando que o cosmos pode ser explicado por leis naturais e não por intervenção divina.
+                        Vida Pessoal e Carreira:
+                        Stephen William Hawking nasceu em 8 de janeiro de 1942, em Oxford, Inglaterra. Ele estudou na Universidade de Oxford, onde obteve seu diploma em física, e depois se especializou em cosmologia na Universidade de Cambridge, onde se tornou professor e pesquisador.
+                        Em 1963, com 21 anos, Hawking foi diagnosticado com esclerose lateral amiotrófica (ELA), uma doença degenerativa incurável. Apesar de perder a capacidade de se mover e falar ao longo dos anos, ele continuou seu trabalho científico, tornando-se um dos maiores cientistas da sua geração.
+                        Hawking foi casado duas vezes, primeiro com Jane Wilde, com quem teve três filhos, e depois com Elaine Mason, sua enfermeira.
+                        Ele faleceu em 14 de março de 2018, aos 76 anos, deixando um legado imenso no campo da ciência, mas também no modo como o público em geral se relaciona com questões complexas sobre o universo.
+                        Legado:
+                        O legado de Stephen Hawking vai muito além de suas descobertas científicas. Ele inspirou uma geração de cientistas, filósofos e leigos, mostrando que a mente humana pode superar limitações físicas extremas. Ele também foi uma figura de destaque na luta por um futuro sustentável e na promoção da educação científica. Hawking permanece um ícone global da ciência e da resistência humana.
+                        
+                    </p>
+
+                    <img className='img' src="/assets/images/uiverse-astro.jpg" alt="" />
 
                 </div>
-            
+
             }
 
         </div>
