@@ -288,6 +288,114 @@ export default function PageAstros() {
 
             }
 
+            {active == 'Carl Sagan' &&
+
+                <div>
+
+                    <h1>{active}</h1>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/4_tiv9v964k?si=k7da2ByuXkyK6PVz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    <p>Carl Sagan (1934–1996) foi um dos mais influentes astrônomos, astrofísicos, escritores e divulgadores científicos do século XX. Ele é amplamente reconhecido por suas contribuições à popularização da ciência e por seu trabalho no exploração do espaço, além de suas pesquisas em áreas como a astrobiologia e a cosmologia. Sagan teve um papel crucial na expansão do conhecimento público sobre o universo, além de ser um defensor da exploração espacial e da busca por vida extraterrestre.
+
+                        Principais Contribuições de Carl Sagan:
+                        Divulgação Científica:
+
+                        Carl Sagan foi um mestre da divulgação científica, usando sua habilidade de comunicar conceitos complexos de maneira acessível e empolgante. Ele ajudou a despertar o interesse pelo cosmos em muitas pessoas ao redor do mundo.
+                        Sua série de televisão "Cosmos: A Personal Voyage" (1980), que ele apresentou e coescreveu, foi uma das produções de maior sucesso na história da divulgação científica. A série foi assistida por centenas de milhões de pessoas em mais de 60 países e introduziu o público em geral aos conceitos fundamentais da astronomia, da física e da exploração espacial.
+                        O livro que acompanha a série, "Cosmos", também se tornou um best-seller e é um dos livros de divulgação científica mais vendidos de todos os tempos.
+                        Pesquisa sobre Vida Extraterrestre e Astrobiologia:
+
+                        Sagan foi um dos pioneiros da astrobiologia, o estudo das condições sob as quais a vida pode surgir e existir no universo. Ele defendeu a ideia de que a vida poderia existir em outros planetas e esteve entre os primeiros a promover a busca por sinais de vida extraterrestre.
+                        Ele foi uma figura chave no desenvolvimento do projeto SETI (Search for Extraterrestrial Intelligence), que busca sinais de rádio ou outras formas de comunicação de civilizações alienígenas.
+                        Um de seus projetos mais notáveis foi a proposta de mensagens interestelares, como a Mensagem de Arecibo (1974), que foi enviada ao espaço com o objetivo de tentar estabelecer contato com possíveis civilizações alienígenas.
+                        Exploração do Sistema Solar e Pesquisas Planetárias:
+
+                        Sagan foi um importante cientista e líder de missões espaciais, particularmente no que diz respeito ao estudo de planetas do Sistema Solar. Ele trabalhou em várias missões da NASA, incluindo as sondas Mariner, Viking, Pioneer, Voyager e Galileo.
+                        Ele foi instrumental no estudo da atmosfera de Vênus e no desenvolvimento da teoria de que Vênus poderia ser um planeta com uma temperatura muito elevada devido ao efeito estufa. Essa teoria foi fundamental para a compreensão dos climas planetários e contribuiu para a conscientização sobre os perigos do aquecimento global na Terra.
+                        Sagan também teve um papel importante na missão Voyager 1 e Voyager 2, que enviaram imagens e dados sobre Júpiter, Saturno e seus respectivos sistemas de luas, ampliando imensamente nosso entendimento sobre esses planetas gigantes.
+                        Teoria sobre a Catástrofe de Extinção dos Dinossauros:
+
+                        Juntamente com outros cientistas, Sagan ajudou a popularizar a hipótese do impacto de asteroide para explicar a extinção dos dinossauros há cerca de 66 milhões de anos. De acordo com essa teoria, um asteroide de grande porte teria colidido com a Terra, causando mudanças climáticas catastróficas, como o bloqueio da luz solar e resfriamento global, que levaram à extinção em massa dos dinossauros.
+                        Embora essa teoria tenha sido proposta por outros cientistas antes de Sagan, ele ajudou a reforçar e promover a ideia, que hoje é amplamente aceita como uma explicação viável para a extinção dos dinossauros.
+
+                    </p>
+
+                    <img className='img' src="/assets/images/uiverse-astro.jpg" alt="" />
+
+                </div>
+
+            }
+
+            {active == 'Marie Curie' &&
+
+                <div>
+
+                    <h1>{active}</h1>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/PTdiKQEM58Q?si=eEeWUW6mHgMiNsgO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    <p>Marie Curie (1867–1934) foi uma cientista de origem polonesa, naturalizada francesa, conhecida por suas pesquisas pioneiras em radioatividade e por ser a primeira pessoa a ganhar dois Prêmios Nobel em diferentes áreas científicas. Ela é uma das figuras mais emblemáticas da história da ciência e suas descobertas tiveram um impacto profundo nas áreas de física, química e medicina. Além disso, sua trajetória de vida inspirou muitas gerações de cientistas e foi um marco para as mulheres na ciência.
+
+                        Principais Contribuições de Marie Curie:
+                        Descoberta dos Elementos Radioativos:
+
+                        Marie Curie, junto com seu marido, Pierre Curie, e o assistente Henri Becquerel, realizou pesquisas fundamentais sobre a radioatividade. Ela se tornou a primeira pessoa a usar o termo "radioatividade" para descrever os elementos que emitiam radiação espontânea.
+                        Curie foi responsável pela descoberta de dois novos elementos químicos: o polônio (nomeado em homenagem à Polônia, seu país natal) e o radônio. Essas descobertas ajudaram a estabelecer as bases para a compreensão de fenômenos de radiação.
+                        A descoberta do radônio, em particular, foi essencial para o estudo da radiação, pois esse elemento emitia radiações de alta energia e teve um impacto crucial no desenvolvimento da teoria da radioatividade.
+                        Prêmio Nobel de Física (1903):
+
+                        Em 1903, Marie Curie e seu marido Pierre Curie, junto com Henri Becquerel, receberam o Prêmio Nobel de Física pela descoberta da radioatividade. Becquerel foi premiado por sua descoberta da radiação espontânea nos átomos, enquanto os Curies foram reconhecidos pela pesquisa que levou à identificação de novos elementos radioativos.
+                        Curie foi a primeira mulher a ganhar um Prêmio Nobel e fez história com essa conquista, abrindo caminho para outras mulheres na ciência.
+                        Prêmio Nobel de Química (1911):
+
+                        Em 1911, Marie Curie ganhou o Prêmio Nobel de Química por suas descobertas sobre a radioatividade, sendo a primeira mulher a receber um Nobel em Química. Ela foi premiada por sua contribuição na isolação do radônio e pela identificação das propriedades químicas de elementos radioativos, como o polônio e o radônio.
+                        Curie se tornou a primeira pessoa a ganhar dois Prêmios Nobel em áreas científicas diferentes (Física e Química), uma conquista única na história dos Prêmios Nobel.
+                        Aplicações Médicas da Radioatividade:
+
+                        Marie Curie também foi pioneira no uso de radiação no tratamento de doenças, especialmente o câncer. Durante a Primeira Guerra Mundial, ela ajudou a estabelecer unidades móveis de radiologia para tratar os soldados feridos. Ela treinou enfermeiras para operar os equipamentos de raios-X e trabalhou ativamente em hospitais de campanha.
+                        Além disso, a pesquisa de Curie abriu caminho para o desenvolvimento de terapias de radioterapia para o tratamento de câncer, que ainda são amplamente usadas na medicina moderna.
+                        Pesquisa no Instituto Curie:
+
+                        Em 1920, após a morte de seu marido Pierre Curie em um acidente, Marie Curie fundou o Instituto Curie, em Paris, que se tornou um centro de pesquisa de ponta sobre radioatividade e física. O instituto se tornou um dos mais importantes centros de pesquisa médica e científica do mundo.
+                        O trabalho realizado no Instituto Curie contribuiu significativamente para o avanço no estudo da radiação e seus efeitos, além de ser uma base fundamental para os estudos de física nuclear.
+                        Trabalho e Legado de Marie Curie:
+
+                        Marie Curie dedicou sua vida à ciência, trabalhando em condições extremamente difíceis. Na época de suas descobertas, a radioatividade não era compreendida como uma ameaça à saúde, e ela própria sofreu sérios problemas de saúde devido à exposição prolongada à radiação. Acredita-se que a exposição à radiação tenha contribuído para a leucemia que a levou à morte em 1934.
+                        Seu trabalho pioneiro foi uma contribuição fundamental para a evolução da física nuclear, além de ter dado início a várias outras linhas de pesquisa científica. Seu legado também foi fundamental para a abertura de portas para mulheres na ciência e na educação, em uma época em que o campo era predominantemente dominado por homens.
+                        Impacto nas Mulheres na Ciência:
+
+                        Marie Curie não só foi uma cientista brilhante, mas também um símbolo de superação e perseverança em um campo altamente competitivo e dominado por homens. Como mulher em um período de restrições sociais e educacionais, ela enfrentou desafios significativos. No entanto, seu trabalho e suas conquistas desafiou as normas da época e ajudaram a abrir portas para outras mulheres na ciência.
+                        Ela foi uma das primeiras mulheres a ser admitida na Academia de Ciências de Paris, além de ser professora na Universidade de Sorbonne, onde ensinou e inspirou novas gerações de cientistas, incluindo mulheres.
+                        Vida Pessoal:
+                        Marie Sklodowska nasceu em 7 de novembro de 1867, em Varsóvia, Polônia, em uma família de educadores. Ela se mudou para Paris em 1891, onde estudou na Universidade de Paris (Sorbonne), fazendo um doutorado em Física.
+                        Em 1895, ela casou-se com Pierre Curie, e juntos fizeram importantes descobertas na área de física. Após a morte prematura de Pierre, em 1906, Marie Curie continuou suas pesquisas, solidificando seu status como uma das maiores cientistas da história.
+                        Curie teve duas filhas, Irène e Ève. Irène também se tornou uma renomada cientista e ganhou o Prêmio Nobel de Química em 1935, em reconhecimento ao seu trabalho sobre a radioatividade, seguindo os passos de sua mãe.
+                        Legado:
+                        Marie Curie é lembrada não apenas por suas descobertas científicas, mas também por sua dedicação à ciência e por quebrar barreiras em uma época em que poucas mulheres conseguiam ingressar em campos acadêmicos e científicos. Ela deixou um legado de persistência, integridade científica e um exemplo de como o trabalho incansável e a curiosidade podem levar a descobertas que mudam o mundo.
+                        Além disso, ela foi uma figura de inspiração para muitas mulheres nas ciências, e sua vida e trabalho continuam a ser celebrados em várias partes do mundo. Institutos de pesquisa e prêmios foram nomeados em sua homenagem, e sua história serve como um exemplo de como a ciência pode ser conduzida com paixão e dedicação, independentemente das circunstâncias ou das dificuldades pessoais.
+                        Marie Curie faleceu em 4 de julho de 1934, devido a complicações da exposição à radiação, mas seu legado continua vivo, sendo lembrada como uma das mais grandes cientistas de todos os tempos.
+
+
+
+                    </p>
+
+                    <img className='img' src="/assets/images/uiverse-astro.jpg" alt="" />
+
+                </div>
+
+            }
+
+            {active == 'Stephen Hawking' &&
+            
+                <div>
+
+                    <h1></h1>
+
+                </div>
+            
+            }
+
         </div>
 
     );
