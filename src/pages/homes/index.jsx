@@ -2,12 +2,20 @@ import './index.scss';
 import { useState } from 'react';
 import { Slider, SliderTwo } from '../../components/Slider'
 import CardAstro from '../../components/cardAstro';
+import CardBusque from '../../components/cardBusque';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 export default function Home() {
 
   const [active, setActive] = useState('Galáxias');
 
   const navItems = ['Galáxias', 'Astronomos', 'Planetas'];
+
+  const numeroZap = '5511910721783';
+
+  const instagram = 'd4viwx_'
 
   return (
 
@@ -180,6 +188,14 @@ export default function Home() {
 
           </div>
 
+          <div className='cep-dinamic'>
+
+            <h2>Dinâmica "Lunática"...</h2> 
+
+            <CardBusque />
+
+          </div>
+
         </div>
 
 
@@ -190,6 +206,31 @@ export default function Home() {
         <img className='small-icon' src="/assets/images/uiverse-astro.jpg" alt="" />
 
         <h3>Abnt Model</h3>
+        <h3 className='name'>Por Davi Cirqueira Nascimento 1°C</h3>
+
+        <h3 className='contats'>Contato:</h3>
+
+        <div className='contato-links'>
+
+          <a className='w' href={`https://wa.me/${numeroZap}`} target='_blank'
+            rel='noopener noreferrer'
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+            }}>
+            <FontAwesomeIcon icon={faWhatsapp} size='2x' style={{marginRight: '10px'}} /> (11) 91072-1783
+          </a>
+
+          <a href={`https://instagram.com/${instagram}`} target='_blank'
+            rel='noopener noreferrer'
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+            }}>
+            <FontAwesomeIcon icon={faInstagram} size='2x' style={{marginRight: '10px'}}/> @{instagram}
+          </a>
+
+        </div>
 
       </footer>
 

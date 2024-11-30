@@ -1,0 +1,26 @@
+.card-busque{
+
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    gap: 10px;
+    background-image: url('https://th.bing.com/th/id/OIP.Uhc2euVukPdWHRNH9wIn0QHaFa?rs=1&pid=ImgDetMain');
+    width: 450px;
+    border-radius: 12px;
+    text-align: center;
+   
+    h2{
+        padding-top: 3%;
+    }
+}
+
+.card-busque:hover {
+
+    background-color: #000;
+    color: #2e65b6;
+    background-image: none;
+    transform: scale(1.02);
+    transition: 0.5s ease;
+    box-shadow: 0px 0px 10px 9px #061335;
+
+}
