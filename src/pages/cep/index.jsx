@@ -1,4 +1,6 @@
 import './index.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 
 export default function Cep() {
 
@@ -13,7 +15,7 @@ export default function Cep() {
             <div className='datas'>
 
                 <input type="text" placeholder='Digite o Cep' />
-                <button></button>
+                <button><FontAwesomeIcon icon={faMagnifyingGlass}/></button>
 
             </div>
 
