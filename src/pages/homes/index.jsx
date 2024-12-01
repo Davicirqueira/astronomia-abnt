@@ -206,7 +206,7 @@ export default function Home() {
         <img className='small-icon' src="/assets/images/uiverse-astro.jpg" alt="" />
 
         <h3>Abnt Model</h3>
-        <h3 className='name'>Por Davi Cirqueira Nascimento 1°C</h3>
+        <h3 className='name'>Davi Cirqueira Nascimento 1°C</h3>
 
         <h3 className='contats'>Contato:</h3>
 

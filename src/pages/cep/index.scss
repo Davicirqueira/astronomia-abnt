@@ -29,12 +29,26 @@
             border-style: none;
             width: 300px;
         }
+        input:focus{
+            border-color: #2e65b6;
+            outline: none;
+            box-shadow: 0 6px 14px rgba(12, 75, 170, 0.205);
+        }
         button{
             padding: 10px;
             outline: 0;
             border-style: none;
             border-top-right-radius: 15px;
             border-bottom-right-radius: 15px;
+            color: #2e65b6;
+        }
+
+        button:hover{
+
+            background-color: #031d4e;
+            transform: scale(1.02);
+            transition: 0.5s ease;
+            color: #2e65b6;
         }
     }
 }

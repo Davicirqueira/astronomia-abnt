@@ -1,13 +1,6 @@
 import './index.scss';
-import { useNavigate } from 'react-router-dom';
 
 export default function CardBusque(){
-
-    const nav = useNavigate();
-
-    function cep(){
-        nav('/cep');
-    }
 
     return(
 
@@ -15,7 +8,7 @@ export default function CardBusque(){
 
             <h2>Busque seu endereço galático!</h2>
 
-            <p onClick={cep}>Ir para satélite de endereços.</p>
+            <a href="/cep">Ir para o Satélite de endereços</a>
 
         </div>
 
