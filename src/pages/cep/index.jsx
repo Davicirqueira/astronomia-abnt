@@ -19,6 +19,17 @@ export default function Cep() {
 
             </div>
 
+            
+            <div>
+
+                <h3>Rua Alba</h3>
+                <h4>Jardim Reimberg</h4>
+                <h4>Sudeste</h4>
+                <h4>São Paulo, SP</h4>
+
+            </div>
+
+
         </div>
 
     );
