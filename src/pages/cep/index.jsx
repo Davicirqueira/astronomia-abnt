@@ -1,7 +1,7 @@
 import './index.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import Swal from 'sweetalert2';
 import axios from 'axios';
 
@@ -84,6 +84,13 @@ export default function Cep() {
 
     }
 
+    async function Enter(e){
+
+        if(e.key == 'Enter'){
+            await buscarCep();
+        }
+    }
+
     return (
 
         <div className='page-cep'>
@@ -96,7 +103,7 @@ export default function Cep() {
 
             <div className='datas'>
 
-                <input type="text" placeholder='Digite o Cep da rua...' value={cep} onChange={e => setCep(e.target.value)} />
+                <input type="text" placeholder='Digite o Cep da rua...' value={cep} onChange={e => setCep(e.target.value)} onKeyUp={Enter}/>
                 <button onClick={buscarCep}><FontAwesomeIcon icon={faMagnifyingGlass} /></button>
 
             </div>

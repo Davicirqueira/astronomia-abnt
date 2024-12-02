@@ -213,6 +213,11 @@
                 color: #78797a;
                 text-align: center;
                 font: 500 20px "Roboto";
+                
+                &:hover{
+                    color: #fff;
+                    transition: ease-in-out 0.4s;
+                }
             }
 
             .w{
