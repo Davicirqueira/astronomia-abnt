@@ -96,7 +96,7 @@ export default function Cep() {
 
             <div className='datas'>
 
-                <input type="text" placeholder='Digite o Cep' value={cep} onChange={e => setCep(e.target.value)} />
+                <input type="text" placeholder='Digite o Cep da rua...' value={cep} onChange={e => setCep(e.target.value)} />
                 <button onClick={buscarCep}><FontAwesomeIcon icon={faMagnifyingGlass} /></button>
 
             </div>
