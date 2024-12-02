@@ -88,6 +88,8 @@ export default function Cep() {
 
         <div className='page-cep'>
 
+            <a className='back' href="/">Sair do Satélite</a>
+
             <h1>BEM-VINDO AO SATÉLITE DE ENDEREÇOS!</h1>
 
             <p>Digite o cep, e encontre seu endereço galático...</p>

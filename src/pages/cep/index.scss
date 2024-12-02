@@ -8,6 +8,16 @@
     flex-direction: column;
     align-items: center;
 
+    .back{
+        color: #fff;
+        font: 500 18px "Roboto";
+
+        &:hover{
+            color: #2e65b6;
+            transition: ease-out 0.5s;
+        }
+    }
+
     h1{
         padding-top: 6%;
     }
