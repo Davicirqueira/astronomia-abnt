@@ -61,7 +61,7 @@ export default function Cep() {
                 return;
             }
 
-            const url = `http://viacep.com.br/ws/${cep}/json/`;
+            const url = `https://viacep.com.br/ws/${cep}/json/`;
             let resp = await axios.get(url);
 
             let dados = resp.data;
