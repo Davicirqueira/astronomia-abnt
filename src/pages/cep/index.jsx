@@ -1,8 +1,88 @@
 import './index.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import { useEffect, useState } from 'react';
+import Swal from 'sweetalert2';
+import axios from 'axios';
 
 export default function Cep() {
+
+    const Error = () => {
+        Swal.fire({
+            title: 'Erro no CEP!',
+            color: "#2e65b6",
+            iconColor: "#2e65b6",
+            background: "#000",
+            text: 'Preencha o cep!',
+            icon: 'warning',
+
+            confirmButtonText: 'Ok',
+            confirmButtonColor: "#2e65b6",
+            customClass: {
+                confirmButton: 'custom-button',
+            },
+        });
+    };
+
+    const generalError = () => {
+        Swal.fire({
+            title: 'Erro no CEP!',
+            color: "#2e65b6",
+            iconColor: "#2e65b6",
+            background: "#000",
+            text: 'Cep desconhecido!',
+            icon: 'warning',
+
+            confirmButtonText: 'Ok',
+            confirmButtonColor: "#2e65b6",
+            customClass: {
+                confirmButton: 'custom-button',
+            },
+        });
+    };
+
+
+    const [logradouro, setLogradouro] = useState('');
+    const [bairro, setBairro] = useState('');
+    const [regiao, setRegiao] = useState('');
+    const [estado, setEstado] = useState('');
+    const [uf, setUf] = useState('');
+
+    const [cep, setCep] = useState('');
+
+    const [ocult, setOcult] = useState(true);
+
+    async function buscarCep() {
+
+        try {
+
+            if (cep == '') {
+                Error();
+                return;
+            }
+
+            const url = `http://viacep.com.br/ws/${cep}/json/`;
+            let resp = await axios.get(url);
+
+            let dados = resp.data;
+
+            setLogradouro(dados.logradouro);
+            setBairro(dados.bairro);
+            setRegiao(dados.regiao);
+            setEstado(dados.estado);
+            setUf(dados.uf);
+
+            setOcult(false);
+            setCep('');
+
+        }
+        catch (err) {
+
+            generalError();
+
+        }
+
+    }
 
     return (
 
@@ -14,20 +94,23 @@ export default function Cep() {
 
             <div className='datas'>
 
-                <input type="text" placeholder='Digite o Cep' />
-                <button><FontAwesomeIcon icon={faMagnifyingGlass}/></button>
+                <input type="text" placeholder='Digite o Cep' value={cep} onChange={e => setCep(e.target.value)} />
+                <button onClick={buscarCep}><FontAwesomeIcon icon={faMagnifyingGlass} /></button>
 
             </div>
 
-            
-            <div>
+            {ocult == false &&
 
-                <h3>Rua Alba</h3>
-                <h4>Jardim Reimberg</h4>
-                <h4>Sudeste</h4>
-                <h4>São Paulo, SP</h4>
+                <div className='card-cep'>
 
-            </div>
+                    <h3>{logradouro}</h3>
+                    <h4>{bairro}</h4>
+                    <h4>{regiao}</h4>
+                    <h4>{estado}, {uf}</h4>
+
+                </div>
+
+            }
 
 
         </div>
